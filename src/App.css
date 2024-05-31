@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #e0f7fa; /* Mintgrün */
 }
 
 .App-logo {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #006064; /* Dunkles Cyan */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +26,25 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #4dd0e1; /* Helle Cyan */
+}
+
+.myButton {
+  background-color: #4dd0e1; /* Helle Cyan */
+  color: white; /* Textfarbe */
+  border: none; /* Entfernt den Standard-Button-Rahmen */
+  padding: 15px 32px; /* Innenabstand */
+  text-align: center; /* Zentriert den Text im Button */
+  text-decoration: none; /* Entfernt die Unterstreichung */
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; /* Ändert den Mauszeiger beim Überfahren des Buttons */
+  border-radius: 4px; /* Runde Ecken */
+}
+
+.myButton:hover {
+  background-color: #006064; /* Dunkles Cyan */
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +55,13 @@
     transform: rotate(360deg);
   }
 }
+input[type="email"], input[type="password"] {
+  width: 200px; /* Volle Breite */
+  padding: 12px 20px; /* Ein bisschen Polsterung */
+  margin: 8px 0; /* Ein bisschen Rand */
+  display: inline-block;
+  border: 1px solid #ccc; /* Grauer Rand */
+  border-radius: 4px; /* Runde Ecken */
+  box-sizing: border-box; /* Damit die Polsterung und der Rand nicht zur Gesamtbreite hinzugefügt werden */
+}
+
