@@ -1,3 +1,6 @@
+/* App.css */
+
+/* Allgemeine Stile */
 .App {
   text-align: center;
   background-color: #e0f7fa; /* Mintgrün */
@@ -29,39 +32,36 @@
   color: #4dd0e1; /* Helle Cyan */
 }
 
+/* Button-Stile */
 .myButton {
   background-color: #4dd0e1; /* Helle Cyan */
-  color: white; /* Textfarbe */
-  border: none; /* Entfernt den Standard-Button-Rahmen */
-  padding: 15px 32px; /* Innenabstand */
-  text-align: center; /* Zentriert den Text im Button */
-  text-decoration: none; /* Entfernt die Unterstreichung */
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer; /* Ändert den Mauszeiger beim Überfahren des Buttons */
-  border-radius: 4px; /* Runde Ecken */
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 .myButton:hover {
   background-color: #006064; /* Dunkles Cyan */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-input[type="email"], input[type="password"] {
-  width: 200px; /* Volle Breite */
-  padding: 12px 20px; /* Ein bisschen Polsterung */
-  margin: 8px 0; /* Ein bisschen Rand */
+/* Eingabefeld-Stile */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc; /* Grauer Rand */
-  border-radius: 4px; /* Runde Ecken */
-  box-sizing: border-box; /* Damit die Polsterung und der Rand nicht zur Gesamtbreite hinzugefügt werden */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
+/* Weitere Stile hier hinzufügen, falls benötigt */

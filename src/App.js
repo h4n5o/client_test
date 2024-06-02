@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import './components/TodoList/TodoList.css';
+
+import TodoList from './components/TodoList/TodoList'; // Importiere deine TodoList-Komponente
 
 function App() {
   const [email, setEmail] = useState('');
@@ -64,6 +67,7 @@ function App() {
           <>
             <p>{user}</p>
             <button className="myButton" onClick={logout}>Abmelden</button>
+            <TodoList /> {/* Render die TodoList-Komponente */}
           </>
         ) : (
           <>
